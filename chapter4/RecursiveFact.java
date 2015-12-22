@@ -7,7 +7,7 @@ public class RecursiveFact {
 		}else{
 			return (n * fact(n-1)); //method fact is calling itself for n times till n = 0 
 									//when n = 0 it returns 1 ending the loop
-									//this is recurtion ie function calling itself
+									//this is recursion i.e function calling itself
 		}
 	}
 }
